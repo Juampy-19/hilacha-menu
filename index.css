@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url('./fondoPizza.png');
+    background-image: url('fondoPizza.png');
     background-size: contain;
 }
 
