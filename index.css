@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
 }
 
 :root {
@@ -10,11 +11,6 @@
     --white: white;
     --red: rgb(223, 32, 32);
     --transparentBlack: rgba(0, 0, 0, .8);
-}
-
-body {
-    background-image: url('fondoPizza.png');
-    background-size: contain;
 }
 
 /* Header */
@@ -41,7 +37,6 @@ header h3 {
     font-size: 30px;
     color: var(--white);
 }
-
 /* Header */
 
 /* Main */
@@ -73,7 +68,18 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    border-bottom: solid 1px var(--red);
+    /* border-bottom: solid 1px var(--red); */
+    position: relative;
+}
+
+.menuTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, transparent, var(--red), transparent);
 }
 
 .pizzas {
