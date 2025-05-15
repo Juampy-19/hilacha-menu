@@ -68,7 +68,6 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    /* border-bottom: solid 1px var(--red); */
     position: relative;
 }
 
@@ -92,8 +91,6 @@ ul {
     align-items: center;
     grid-column: 1 / 2;
     border-bottom: solid var(--red) 1px;
-    max-height: 24px;
-    font-size: 18px;
 }
 
 .pizzas ul {
@@ -144,7 +141,6 @@ ul {
     display: flex;
     grid-column: 1 / 2;
     border-bottom: solid var(--red) 1px;
-    font-size: 18px;
 }
 
 .precioEmp {
